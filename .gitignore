@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (trop lourd pour GitHub)
+data/raw/
+data/processed/
+
+# Modèles entraînés
+results/models/
+*.pt
+*.pth
+*.h5
+
+# Figures
+results/figures/*.png
+results/figures/*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini

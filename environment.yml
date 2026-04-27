@@ -1,0 +1,21 @@
+name: xray
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy<2
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - jupyter
+  - notebook
+  - ipykernel
+  - pillow          # manipulation d'images
+  - pip:
+    - torch
+    - torchvision   # modèles pré-entraînés (ResNet, VGG...)
+    - tqdm          # barres de progression
+    - grad-cam      # visualisation de ce que le modèle regarde
